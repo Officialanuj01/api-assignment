@@ -1,0 +1,29 @@
+#blog {
+  display: flex;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-column-gap: 80px;
+  grid-row-gap: 60px;
+  align-items: center;
+}
+
+.article {
+  position: relative;
+  border-radius: 3px;
+}
+
+.article img {
+  width: 100px;
+  height: 100px;
+}
+
+.article > .strength {
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+.article:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px black;
+  background-color: orange;
+}
